@@ -3,19 +3,21 @@
 * ``` /home/google/ ```
 #### ``` google ``` user directory
 ```sh
-Android [sdk]
-data
-├── code
-    ├── android
-    ├── cpp
-    ├── erlang
-    ├── golang
-    ├── java
-    ├── matlab
-    ├── nodejs
-    └── rust  
-media
-software
+home
+├──google
+   ├──Android [sdk]
+   ├──data
+      ├──code
+         ├── android
+         ├── cpp
+         ├── erlang
+         ├── golang
+         ├── java
+         ├── matlab
+         ├── nodejs
+         └── rust  
+      media
+      software
 ```
 
 #### ``` opt ``` directory permission
