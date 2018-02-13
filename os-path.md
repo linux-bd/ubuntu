@@ -26,6 +26,7 @@ sudo chmod -R 777 /opt/*
 #### ``` opt ``` directory
 * ``` BFS = Built From Source ```
 ```sh
+opt
 ├── android     [STUDIO]
 ├── erlang      [BFS]
 ├── ffmpeg      [BFS]
