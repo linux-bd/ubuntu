@@ -23,7 +23,8 @@ software
 sudo chmod -R 777 /opt/*
 ```
 
-#### ``` opt ``` directory [Built From Source = BFS]
+#### ``` opt ``` directory
+* ``` BFS = Built From Source ```
 ```sh
 ├── android     [STUDIO]
 ├── erlang      [BFS]
@@ -44,7 +45,8 @@ sudo chmod -R 777 /opt/*
 └── webstorm    [INSTALL]
 ```
 
-### Ubuntu ~/.bashrc [/home/google/.bashrc] Path Variable
+### Ubuntu ~/.bashrc Path Variable
+* ``` sudo vim /home/google/.bashrc ```
 ```sh
 export PATH="$PATH:/opt/redis"
 export PATH="$PATH:/opt/python"
@@ -57,7 +59,8 @@ export PATH="$PATH:/home/google/Android/Sdk/platform-tools"
 export PATH="$PATH:/opt/rust/build/x86_64-unknown-linux-gnu/stage1/bin"
 ```
 
-### Ubuntu ~/.profile [/home/google/.bashrc] Path Variable
+### Ubuntu ~/.profile Path Variable
+* ``` sudo vim /home/google/.bashrc ```
 ```sh
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
