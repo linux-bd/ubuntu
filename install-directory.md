@@ -43,3 +43,28 @@ sudo chmod -R 777 /opt/*
 ├── rust        [BFS]
 └── webstorm    [INSTALL]
 ```
+
+### Ubuntu ~/.bashrc Path Variable
+```sh
+export PATH="$PATH:/opt/redis"
+export PATH="$PATH:/opt/python"
+export PATH="$PATH:/opt/jdk/bin"
+export PATH="$PATH:/opt/nodejs/bin"
+export PATH="$PATH:/opt/gradle/bin"
+export PATH="$PATH:/opt/erlang/bin"
+export PATH="$PATH:/opt/matlab/bin"
+export PATH="$PATH:/home/google/Android/Sdk/platform-tools"
+export PATH="$PATH:/opt/rust/build/x86_64-unknown-linux-gnu/stage1/bin"
+```
+
+### Ubuntu ~/.profile Path Variable
+```sh
+# set PATH so it includes user's private bin directories
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+--------------------------------------------------------
+export GOROOT=/opt/go
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOME/data/code/golang
+export GOBIN=$HOME/data/code/golang/bin
+```
+
