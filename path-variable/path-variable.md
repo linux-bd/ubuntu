@@ -1,3 +1,8 @@
+### Get All Environment Variables
+```
+printenv
+```
+
 ### Get Path Variable
 * ``` echo $PATH | tr ":" "\n" ```
 ```sh
