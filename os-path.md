@@ -41,6 +41,7 @@ opt
 ├── jdk         [PORTABLE BINARY]
 ├── matlab      [INSTALL]
 ├── nodejs      [BINARY]
+├── openjdk     [BINARY]
 ├── python      [BFS]
 ├── qtsdk       [INSTALL]
 ├── redis       [BFS]
