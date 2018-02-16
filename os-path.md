@@ -55,6 +55,7 @@ opt
 export PATH="$PATH:/opt/redis"
 export PATH="$PATH:/opt/yasm"
 export PATH="$PATH:/opt/nasm"
+export PATH="$PATH:/opt/ffmpeg"
 export PATH="$PATH:/opt/python"
 export PATH="$PATH:/opt/jdk/bin"
 export PATH="$PATH:/opt/nodejs/bin"
