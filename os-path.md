@@ -3,6 +3,7 @@
 * ``` /home/google/ ```
 #### ``` google ``` user directory
 ```sh
+app
 home
 ├──google
    ├──Android [sdk]
