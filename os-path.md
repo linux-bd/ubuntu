@@ -1,24 +1,34 @@
 ### Ubuntu OS Directory Structure
-* username: ``` google ```
-* ``` /home/google/ ```
-#### ``` google ``` user directory
+* username: ``` amran ```
+* ``` /home/amran/ ```
+#### ``` amran ``` user directory
 ```sh
 app
 home
-├──google
-   ├──Android [sdk]
-   ├──data
-      ├──code
-         ├── android
-         ├── cpp
-         ├── erlang
-         ├── golang
-         ├── java
-         ├── matlab
-         ├── nodejs
-         └── rust  
-      media
-      software
+├── amran
+   ├── android
+       ├── android-studio
+       ├── sdk
+   ├── app
+       ├── android
+       ├── clang
+       ├── cpp
+       ├── erlang
+       ├── golang
+       ├── java
+       ├── kotlin
+       ├── matlab
+       ├── nodejs
+       ├── php
+       ├── python
+       ├── ruby
+       ├── rust
+       └── scala
+   ├── media
+   ├── phone
+   ├── soft
+   ├── tools
+   ├── vmware
 ```
 
 #### ``` opt ``` directory permission
@@ -87,7 +97,7 @@ export PATH="$PATH:/opt/mssql-tools/bin"
 ```
 
 ### Ubuntu ~/.profile Path Variable
-* ``` sudo vim /home/google/.bashrc ```
+* ``` sudo vim ~/.profile ```
 ```sh
 # set PATH so it includes user's private bin directories
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
