@@ -61,7 +61,7 @@ opt
 ```
 
 ### Ubuntu ~/.bashrc Path Variable
-* ``` sudo vim /home/google/.bashrc ```
+* ``` sudo vim /home/amran/.bashrc ```
 ```sh
 export PATH="$PATH:/opt/yasm"
 export PATH="$PATH:/opt/nasm"
