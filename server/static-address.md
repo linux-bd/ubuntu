@@ -1,4 +1,4 @@
-## ifconfig
+### ifconfig
 ```sh
 ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.247.218  netmask 255.255.252.0  broadcast 192.168.247.255
@@ -19,7 +19,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-## route -n
+### route -n
 ```sh
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
@@ -28,7 +28,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 192.168.244.1   0.0.0.0         255.255.255.255 UH    100    0        0 ens33
 ```
 
-## cat /etc/network/interfaces
+### sudo vim /etc/network/interfaces
 ```sh
 # ifupdown has been replaced by netplan(5) on this system.  See
 # /etc/netplan for current configuration.
@@ -43,7 +43,7 @@ iface ens33 inet static
 dns-nameservers 192.168.244.1
 ```
 
-## Service Restart
+### Service Restart
 ```sh
 sudo service networkd-dispatcher restart
 ```
