@@ -1,0 +1,43 @@
+## Mono Develop Packages for Ubuntu
+```sh
+mono-4.0-gac                      monodoc-poppler-manual
+mono-4.0-service                  monodoc-soup2.4-manual
+mono-addins-utils                 monodoc-taglib-manual
+mono-apache-server                monodoc-taoframework-manual
+mono-apache-server4               monodoc-webkit2-sharp-4.0-manual
+mono-basic-dbg                    monodoc-zeitgeist-manual
+monobristol                       mono-fastcgi-server
+mono-complete                     mono-fastcgi-server4
+mono-csharp-shell                 mono-fpm-server
+mono-dbg                          mono-gac
+mono-devel                        mono-jay
+monodevelop                       mono-llvm-dev
+monodevelop-nunit                 mono-llvm-support
+monodevelop-versioncontrol        mono-llvm-tools
+mono-dmcs                         mono-mcs
+monodoc-appindicator3-0.1-manual  monopd
+monodoc-banshee-manual            mono-profiler
+monodoc-base                      mono-reference-assemblies-2.0
+monodoc-browser                   mono-reference-assemblies-3.5
+monodoc-db4o-manual               mono-reference-assemblies-4.0
+monodoc-gdata-manual              mono-roslyn
+monodoc-gkeyfile-manual           mono-runtime
+monodoc-gmime2.6-manual           mono-runtime-boehm
+monodoc-gnome-keyring-manual      mono-runtime-common
+monodoc-gtk2.0-manual             mono-runtime-dbg
+monodoc-gtk3.0-manual             mono-runtime-sgen
+monodoc-gudev-manual              monotone
+monodoc-hexbox-manual             monotone-doc
+monodoc-http                      monotone-extras
+monodoc-hyena-manual              monotone-server
+monodoc-manual                    monotone-viz
+monodoc-mono-fuse-manual          mono-tools-devel
+monodoc-mono-upnp-manual          mono-tools-gui
+monodoc-mono-zeroconf-manual      mono-upnp-bin
+monodoc-mysql-manual              mono-utils
+monodoc-newtonsoft-json-manual    mono-vbnc
+monodoc-notify3.0-manual          mono-xbuild
+monodoc-notify-sharp-manual       mono-xsp
+monodoc-nunit-manual              mono-xsp4
+monodoc-opentk-manual             mono-xsp4-base
+```
