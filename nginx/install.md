@@ -1,4 +1,4 @@
-## Install Nginx Server Ubuntu Via PPA
+## Install Nginx Server in Ubuntu Via PPA
 ```sh
 sudo -s
 nginx=stable # use nginx=development for latest development version
