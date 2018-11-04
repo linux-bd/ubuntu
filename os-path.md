@@ -94,6 +94,10 @@ alias postgre='pg_ctl -D /opt/pgsql/data -l logfile start'
 alias mongod='mongod --config "/opt/mongodb/config/mongod.cfg"'
 
 export PATH="$PATH:/opt/mssql-tools/bin"
+
+# Environment Variable
+export JAVA_HOME=/opt/jdk/jdk-11.0.1/
+
 ```
 
 ### Ubuntu ~/.profile Path Variable
