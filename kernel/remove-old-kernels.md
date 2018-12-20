@@ -1,4 +1,4 @@
-## Ubuntu Remove Old Unused Kernels
+## [Ubuntu Remove Old Unused Kernels](https://gist.github.com/ipbastola/2760cfc28be62a5ee10036851c654600)
 
 * List Kernels
 ```sh
@@ -18,6 +18,7 @@ sudo apt-get purge linux-image-xxxx-generic
 * Update Grub finally
 ```sh
 sudo update-grub2
+sudo update-grub
 ```
 
 * Remove all unused Headers
