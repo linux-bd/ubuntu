@@ -1,8 +1,8 @@
 ## Robomongo Ubuntu Install
 * Download and save as `robo3t`
-[Robo Icon](https://robomongo.org/static/robomongo-128x128-129df2f1.png)
+* [robo3t icon](https://robomongo.org/static/robomongo-128x128-129df2f1.png)
 
-## Export Path Variable
+## Export `Path` Variable
 ```sh
 export PATH="$PATH:/opt/robo3t/bin"
 ```
