@@ -1,5 +1,5 @@
 ## Robomongo Ubuntu Install
-* Download and save as `robo3t`
+* Download and save as `robo3t.png`
 * [robo3t icon](https://robomongo.org/static/robomongo-128x128-129df2f1.png)
 
 ## Export `Path` Variable
