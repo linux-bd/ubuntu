@@ -1,8 +1,8 @@
 ## Linux Host PC ` username@pcname `
 ```sh
-amran@amran
+amran@linux
 ```
 ## Linux VMWare PC ` username@pcname `
 ```sh
-amran@ubuntu
+amran@linux
 ```
