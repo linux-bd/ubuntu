@@ -6,7 +6,7 @@ sudo apt -y install libgconf2-4 [ubuntu 18.04.2]
 
 ### Download and Create Link
 ```sh
-wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+wget https://dl.pstmn.io/download/latest/linux64 -O Postman.tar.gz
 sudo tar -xzf Postman.tar.gz -C /opt/tools
 rm Postman.tar.gz
 sudo ln -s /opt/tools/Postman/Postman /usr/bin/Postman
