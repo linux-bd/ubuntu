@@ -22,6 +22,15 @@ network:
 sudo netplan try
 sudo netplan apply
 ```
+### SSH Without Password Giving
+```sh
+ssh-keygen -t rsa -b 4096
+```
+This will Create a file in ```.ssh``` folder named ``` id_rsa.pub ```
+
+### Copy Above file contents to server ``` .ssh/authorized_keys ```
+### From Multiple Pc
+For multiple computer proceed with same process and paste the generated key to ```authorized_keys``` under the existing key file giving a new line
 
 ### [Tutorial](https://www.youtube.com/watch?v=-WUCqkjOIMY)
 ### ifconfig
