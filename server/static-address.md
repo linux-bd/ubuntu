@@ -1,4 +1,4 @@
-### Updated Server Address Setup
+### Updated Static Server Address Setup
 ### ``` sudo vim /etc/netplan/50-cloud-init.yaml ```
 ```
 network:
