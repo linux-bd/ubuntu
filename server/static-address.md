@@ -1,3 +1,28 @@
+### Updated Server Address Setup
+### ``` sudo vim /etc/netplan/50-cloud-init.yaml ```
+```
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s31f6:  # Change this to your actual network interface name
+      dhcp4: no
+      addresses:
+        - 192.168.1.103/24  # Your desired static IP
+      routes:
+        - to: default
+          via: 192.168.1.1  # Your router’s IP
+      nameservers:
+        addresses:
+          - 8.8.8.8   # Google DNS
+          - 8.8.4.4
+```
+### Try/Debug
+```sh
+sudo netplan try
+sudo netplan apply
+```
+
 ### [Tutorial](https://www.youtube.com/watch?v=-WUCqkjOIMY)
 ### ifconfig
 ```sh
