@@ -32,6 +32,16 @@ This will Create a file in ```.ssh``` folder named ``` id_rsa.pub ```
 ### From Multiple Pc
 For multiple computer proceed with same process and paste the generated key to ```authorized_keys``` under the existing key file giving a new line
 
+### Restore DHCP Default Setup
+### ``` sudo vim /etc/netplan/50-cloud-init.yaml ```
+```sh
+network:
+  version: 2
+  ethernets:
+    enp0s31f6:
+      dhcp4: true
+```
+
 ### [Tutorial](https://www.youtube.com/watch?v=-WUCqkjOIMY)
 ### ifconfig
 ```sh
