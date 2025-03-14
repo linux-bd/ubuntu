@@ -14,7 +14,7 @@ network:
           via: 192.168.1.1  # Your router’s IP
           table: 100  # Custom table for Ethernet
       routing-policy:
-        - from: 192.168.1.101
+        - from: 192.168.1.101   # For machine 2 it would be 192.168.1.102
           table: 100
       nameservers:
         addresses:
@@ -31,7 +31,7 @@ network:
           via: 192.168.1.1  # Router IP
           table: 101  # Custom table for Wi-Fi
       routing-policy:
-        - from: 192.168.1.201
+        - from: 192.168.1.201  # For machine 2 it would be 192.168.1.202
           table: 101
       nameservers:
         addresses:
