@@ -1,3 +1,49 @@
+### Static Address Configuration for multiple linux servers connected with Wifi and ethernet
+### ```sudo cat /etc/netplan/50-cloud-init.yaml```
+```sh
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s31f6:  # Change this to your actual network interface name -> ip link show
+      dhcp4: no
+      addresses:
+        - 192.168.1.101/24  # Your desired static IP
+      routes:
+        - to: 0.0.0.0/0  # Default route
+          via: 192.168.1.1  # Your router’s IP
+          table: 100  # Custom table for Ethernet
+      routing-policy:
+        - from: 192.168.1.101
+          table: 100
+      nameservers:
+        addresses:
+          - 8.8.8.8   # Google DNS
+          - 8.8.4.4
+
+  wifis:
+    wlp0s20f3:  # Change this to your actual Wi-Fi interface name -> ip link show
+      dhcp4: no
+      addresses:
+        - 192.168.1.201/24  # Static IP for Wi-Fi (Change for each laptop)
+      routes:
+        - to: 0.0.0.0/0  # Default route
+          via: 192.168.1.1  # Router IP
+          table: 101  # Custom table for Wi-Fi
+      routing-policy:
+        - from: 192.168.1.201
+          table: 101
+      nameservers:
+        addresses:
+          - 8.8.8.8
+          - 8.8.4.4
+      access-points:
+        "TP-Link_3A36":
+          password: "333888222"
+      optional: true  # Avoids boot delay if Wi-Fi is unavailable
+```
+### ```sudo netplan apply```
+
 ### Updated Static Server Address Setup
 ### ``` sudo vim /etc/netplan/50-cloud-init.yaml ```
 ```
